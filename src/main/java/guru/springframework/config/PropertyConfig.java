@@ -43,7 +43,7 @@ public class PropertyConfig {
     @Bean
     public FakeDataSource fakeDataSource(){
         FakeDataSource fakeDataSource = new FakeDataSource();
-        fakeDataSource.setUser(env.getProperty("USER1"));
+        fakeDataSource.setUser(user);
         fakeDataSource.setPassword(password);
         fakeDataSource.setUrl(url);
         return fakeDataSource;

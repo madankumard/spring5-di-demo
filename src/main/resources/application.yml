@@ -1,0 +1,11 @@
+jms:
+  username: JohnJMS
+  password: pwdJMS
+  dburl: dburlJMS
+
+---
+spring:
+  profiles: de
+
+jms:
+  username: JohnJMS*german
